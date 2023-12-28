@@ -1,12 +1,12 @@
 package org.demo.appmockito.ejemplos.services;
 
+import org.demo.appmockito.ejemplos.Datos;
 import org.demo.appmockito.ejemplos.models.Examen;
 import org.demo.appmockito.ejemplos.repositories.ExamenRepository;
 import org.demo.appmockito.ejemplos.repositories.PreguntaRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.jupiter.api.parallel.Execution;
 import org.mockito.*;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -14,7 +14,6 @@ import org.mockito.stubbing.Answer;
 
 import static org.mockito.Mockito.*;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
