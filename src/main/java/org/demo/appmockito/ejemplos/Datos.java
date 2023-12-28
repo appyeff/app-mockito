@@ -1,4 +1,4 @@
-package org.demo.appmockito.ejemplos.services;
+package org.demo.appmockito.ejemplos;
 
 import org.demo.appmockito.ejemplos.models.Examen;
 
@@ -7,15 +7,18 @@ import java.util.List;
 
 public class Datos {
 
-    public final static List<Examen> EXAMENES = Arrays.asList(new Examen(5L, "Matematicas"),
+    public final static List<Examen> EXAMENES = Arrays.asList(
+            new Examen(5L, "Matematicas"),
             new Examen(6L, "Lenguaje"),
             new Examen(7L, "Historia"));
 
-    public final static List<Examen> EXAMENES_ID_NULL = Arrays.asList(new Examen(null, "Matematicas"),
+    public final static List<Examen> EXAMENES_ID_NULL = Arrays.asList(
+            new Examen(null, "Matematicas"),
             new Examen(null, "Lenguaje"),
             new Examen(null, "Historia"));
 
-    public final static List<Examen> EXAMENES_ID_NEGATIVOS = Arrays.asList(new Examen(-5L, "Matematicas"),
+    public final static List<Examen> EXAMENES_ID_NEGATIVOS = Arrays.asList(
+            new Examen(-5L, "Matematicas"),
             new Examen(-6L, "Lenguaje"),
             new Examen(-7L, "Historia"));
 
